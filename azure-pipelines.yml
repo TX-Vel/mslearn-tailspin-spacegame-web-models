@@ -40,7 +40,7 @@ steps:
   inputs:
     command: push
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
-    publishVstsFeed: '1659b3e5-c61b-413e-91dd-c77a02ee5f5a/899a1be6-bd41-44f4-b66f-a392efefa5f1'
+    publishVstsFeed: 'Space Game - web - Dependencies/Tailspin.SpaceGame.Web.Models'
     allowPackageConflicts: true
   condition: succeeded()
 
@@ -49,6 +49,7 @@ steps:
 #   inputs:
 #     command: push
 #     publishVstsFeed: 'Space Game - web - Dependencies/Tailspin.SpaceGame.Web.Models'
+# publishVstsFeed: '1659b3e5-c61b-413e-91dd-c77a02ee5f5a/899a1be6-bd41-44f4-b66f-a392efefa5f1'
 #     allowPackageConflicts: true
 #   condition: succeeded()
 
